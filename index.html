@@ -47,6 +47,7 @@
             justify-content: space-around;
             flex-wrap: wrap;
             margin: 20px 0;
+            gap: 10px;
         }
         .metric-card {
             background: #fff;
@@ -54,7 +55,8 @@
             padding: 15px;
             border-radius: 8px;
             text-align: center;
-            width: 30%;
+            min-width: 200px;
+            flex: 1;
             box-shadow: 0 2px 5px rgba(0,0,0,0.02);
         }
         .metric-value {
@@ -129,13 +131,18 @@
         <h2>دریافت منابع</h2>
         <p>برای مطالعه جزئیات بیشتر، می‌توانید از لینک‌های زیر استفاده کنید:</p>
         <div>
-            <!-- این لینک را بعدا با فایل PDF خود جایگزین کنید -->
-            <a href="#" class="btn">📄 دانلود مقاله (PDF)</a>
-            <a href="https://github.com/Avestakh-M" class="btn btn-outline" target="_blank">💻 مشاهده کدها در گیت‌هاب</a>
+            <!-- دکمه دانلود مقاله با لینک مستقیم -->
+            <a href="https://raw.githubusercontent.com/Avestakh-M/Explainable-Bilingual-Meeting-Framework/main/Avestakh_Paper.pdf" class="btn" target="_blank" rel="noopener">📄 دانلود مقاله (PDF)</a>
+            
+            <!-- دکمه مشاهده کدها در مخزن اختصاصی -->
+            <a href="https://github.com/Avestakh-M/Explainable-Bilingual-Meeting-Framework" class="btn btn-outline" target="_blank" rel="noopener">💻 مشاهده سورس کدها</a>
+            
+            <!-- دکمه اجرای آنلاین در کولب -->
+            <a href="https://colab.research.google.com/github/Avestakh-M/Explainable-Bilingual-Meeting-Framework/blob/main/Avestakh_Framework.ipynb" class="btn btn-outline" target="_blank" rel="noopener">▶️ اجرای آنلاین در Colab</a>
         </div>
 
         <footer>
-            © 1405 محمد اوستاخ | تمامی حقوق محفوظ است.
+            © ۱۴۰۵ محمد اوستاخ | تمامی حقوق محفوظ است.
         </footer>
     </div>
 </body>
